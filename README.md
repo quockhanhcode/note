@@ -5,3 +5,19 @@
 	min-width: 320px;
 }
 
+<!-- Thuộc tính clearfix -->
+.clear {
+    clear: both;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: block;
+}
